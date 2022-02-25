@@ -1,0 +1,89 @@
+@charset "utf-8";
+:root{
+    --cor0: gray;
+    --cor1: #E6D2A5;
+    --cor2: #C9AA67;
+    --cor3: #E4D3AD;
+    --cor4: lightgray;
+
+    --fonte-padrao: Arial, Helvetica;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-color: gray;
+    background-image: url('/imagens/parede.jpg');
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-image: url('/imagens/parede.jpg');
+}
+
+header h1{
+    text-align: center;
+    padding: 30px;
+    font-family: var(--fonte-padrao);
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-shadow: 2px 2px 1px black;
+}
+
+header a:hover{
+    color: white;
+    background-color: gray;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 1px 1px 8px black;
+}
+
+main h1{
+    padding: 10px;
+}
+
+main p{
+    text-indent: 30px;
+    text-align: justify;
+    padding: 10px;
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    padding: 10px;
+}
+
+main img{
+    min-width: 300px;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    padding: 20px 0px;
+}
+
+footer{
+    background-color: var(--cor0);
+    color: white;
+    box-shadow: 1px 1px 8px black;
+    background-image: url(/imagens/parede.jpg);
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+    text-shadow: 2px 2px 1px black;
+}
